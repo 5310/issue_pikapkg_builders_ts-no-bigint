@@ -4,18 +4,14 @@
     "module": "esnext",
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "plugins": [
-      {
-        "name": "typescript-tslint-plugin"
-      }
-    ]
+    "strict": true
   },
   "include": [
     "src/index.ts"
   ],
   "exclude": [
     "node_modules",
+    "pkg",
     "**/__tests__/*"
   ]
 }
